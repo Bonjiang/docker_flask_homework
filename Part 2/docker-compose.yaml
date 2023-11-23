@@ -1,7 +1,10 @@
+# specifies the version of the Docker compose file being used
 version: '3'
+# defining services corresponding to the container
 services:
   flask_app_1:
     build: ./Flask 1
+    # ^ name of the folder/directory 
     ports:
       - "5001:5000"
     volumes:
