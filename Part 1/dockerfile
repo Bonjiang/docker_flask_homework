@@ -12,4 +12,4 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 
 # Docker build command: docker build -t bonnie . 
-# Docker run command: docker run -d -p 8005:5000 docker_example_1
+# Docker run command: docker run -d -p 8005:5000 bonnie
